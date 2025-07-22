@@ -1,12 +1,42 @@
-# React + Vite
+# 🚀 Crypto Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive cryptocurrency dashboard built with **React**, **Vite**, and **Tailwind CSS**. It fetches real-time market data from the [CoinGecko API](https://www.coingecko.com/en/api) and displays it with price charts, search, and auto-refresh.
 
-Currently, two official plugins are available:
+![screenshot](Screenshot 2025-07-22 191649.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔄 Live crypto data (updated every 60 seconds)
+- 📉 Mini sparkline charts (last 7-day trend)
+- 🔎 Coin search / filter
+- 🌗 Light/Dark theme toggle
+- 📱 Fully responsive with Tailwind CSS
+- ⚡ Fast and lightweight (Vite + React)
+
+---
+
+## 📦 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [CoinGecko API](https://www.coingecko.com/en/api)
+- [Chart.js](https://www.chartjs.org/) (for sparkline charts)
+
+---
+
+## 🚀 Live Demo
+
+🔗 [View it on Vercel]([https://your-vercel-link.vercel.app](https://vercel.com/new/chanchal-kapris-projects/success?developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=crypto-dashboard-dpl4qvkpo-chanchal-kapris-projects.vercel.app&projectName=crypto-dashboard&s=https%3A%2F%2Fgithub.com%2Fchanchalkapri%2Fcrypto-dashboard&gitOrgLimit=&hasTrialAvailable=1&totalProjects=1&flow-id=ogoiKpKAwKv3AMAMDjeIa))
+
+---
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/yourusername/crypto-dashboard.git
+cd crypto-dashboard
+npm install
+npm run dev
